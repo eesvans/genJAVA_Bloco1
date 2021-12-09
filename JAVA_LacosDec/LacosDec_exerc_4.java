@@ -14,7 +14,7 @@ public class LacosDec_exerc_4 {
 		num = leia.nextFloat();
 
 		if((num%2==0)) {
-			System.out.printf("O número "+num+" é par e sua raíz quadrada é %.2f",Math.sqrt(num));
+			System.out.printf("O número %.1f é par e sua raíz quadrada é %.2f",num,Math.sqrt(num));
 		} else {
 			System.out.println("O número "+num+" é ímpar e elevado ao quadrado é "+Math.pow(num, 2));
 		}
