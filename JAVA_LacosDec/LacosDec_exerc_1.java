@@ -14,7 +14,7 @@ public class LacosDec_exerc_1 {
 		n1 = leia.nextInt();
 		System.out.print("Digite o segundo número: ");
 		n2 = leia.nextInt();
-		System.out.print("Digite o terceiro: ");
+		System.out.print("Digite o terceiro número: ");
 		n3 = leia.nextInt();
 		
 		if(n1 > n2 && n1 > n3) {
