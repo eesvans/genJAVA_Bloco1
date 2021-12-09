@@ -11,7 +11,7 @@ public class LacosDec_exerc_4 {
 		double num;
 				
 		System.out.print("Entre com um número: ");
-		num = leia.nextInt();
+		num = leia.nextFloat();
 
 		if((num%2==0)) {
 			System.out.printf("O número "+num+" é par e sua raíz quadrada é %.2f",Math.sqrt(num));
