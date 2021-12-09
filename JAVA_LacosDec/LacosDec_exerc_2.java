@@ -17,17 +17,17 @@ public class LacosDec_exerc_2 {
 		System.out.print("Digite o terceiro número: ");
 		n3 = leia.nextInt();
 		
-		if(n1 <=n2 && n2 <=n3) {
+		if(n1 <= n2 && n2 <= n3) {
 			System.out.printf("Ordem crescente dos números informados: "+n1+", "+n2+", "+n3);
-		} else if((n1 <=n2 && n3 <= n2) && n1 <= n3){
+		}else if(n1 <= n3 && n3 <= n2){
 			System.out.printf("Ordem crescente dos números informados: "+n1+", "+n3+", "+n2);
-		}else if(n2 <=n1 && n1 <=n3) {
+		}else if(n2 <= n1 && n1 <= n3){
 			System.out.printf("Ordem crescente dos números informados: "+n2+", "+n1+", "+n3);
-		} else if(n2 <=n1 && n2 <=n3) {
+		}else if(n2 <= n3 && n2 <= n1){
 			System.out.printf("Ordem crescente dos números informados: "+n2+", "+n3+", "+n1);
-		} else if(n3 <=n1 && n1 <=n2) {
+		}else if(n3 <= n1 && n1 <= n2){
 			System.out.printf("Ordem crescente dos números informados: "+n3+", "+n1+", "+n2);
-		} else {
+		}else {
 			System.out.printf("Ordem crescente dos números informados: "+n3+", "+n2+", "+n1);
 		}
 	}
