@@ -25,7 +25,7 @@ public class LacosRep_exDoWhile_2 {
 			
 		}while(num!=0);
 		
-		media=somaNum/cont;
-		System.out.printf("\nForam informados %d número(s) múltiplo(s) de 3, sua soma é de %d e sua média é %.2f",cont,somaNum,media);
+		media=(float)somaNum/cont;
+		System.out.printf("\nForam informados %d número(s) múltiplo(s) de 3, sua soma é de %d e sua média é %.2f ",cont,somaNum,media);
 	}
 }
