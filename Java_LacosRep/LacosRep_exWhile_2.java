@@ -49,7 +49,7 @@ public class LacosRep_exWhile_2 {
 						pCal++;
 					}
 					break;
-					
+										
 					
 				case 2:
 					System.out.println("\nVocê se identifica como uma pessoa: ");
@@ -76,6 +76,7 @@ public class LacosRep_exWhile_2 {
 					}
 					break;
 					
+					
 				case 3:
 					System.out.println("\nVocê se identifica como uma pessoa: ");
 					System.out.println("\n1- Você é calmo.");
@@ -98,7 +99,8 @@ public class LacosRep_exWhile_2 {
 						pCal++;
 					}
 					break;
-															
+					default:
+					System.out.println("\nOpção inválida!");			
 			}
 			pessoas++;
 			
