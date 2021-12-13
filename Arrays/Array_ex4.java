@@ -21,7 +21,7 @@ public class Array_ex4 {
 		float[][] m2 = new float [2][2];
 		float[][] m3 = new float [2][2];
 		int linha,coluna,op;
-		float numM1,numM2;
+		float num;
 				
 		for(linha=0;linha<2;linha++)
 		{
@@ -89,29 +89,20 @@ public class Array_ex4 {
 				break;
 			case 3:
 				
-				System.out.println("\nInforme uma constante a adicionar na primeira matriz: ");
-				numM1=leia.nextFloat();
+				System.out.println("\nInforme uma constante a adicionar na primeira e segunda matriz: ");
+				num=leia.nextFloat();
 				
 				for(linha=0;linha<2;linha++)
 				{
 					for(coluna=0;coluna<2;coluna++)
 					{
-						m1[linha][coluna]+=numM1;
+						m1[linha][coluna]+=num;
+						m2[linha][coluna]+=num;
 												
 					}
 				}
 				
-				System.out.println("\nInforme uma constante a adicionar na segunda matriz: ");
-				numM2=leia.nextFloat();
-				
-				for(linha=0;linha<2;linha++)
-				{
-					for(coluna=0;coluna<2;coluna++)
-					{
-						m2[linha][coluna]+=numM2;
-					}
-				}
-				
+								
 				System.out.println("\nNovos valores MATRIZ 1");
 				for(linha=0;linha<2;linha++)
 				{
