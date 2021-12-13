@@ -27,7 +27,7 @@ public class Array_ex4 {
 		{
 			for(coluna=0;coluna<2;coluna++)
 			{
-				System.out.println("Informe os números da primeira matriz: ");
+				System.out.printf("Informe um número para primeira matriz, posição M1[%d][%d]: ",linha+1,coluna+1);
 				m1[linha][coluna]=leia.nextFloat();
 								
 			}
@@ -36,7 +36,7 @@ public class Array_ex4 {
 		{
 			for(coluna=0;coluna<2;coluna++)
 			{
-				System.out.println("Informe os números da segunda matriz: ");
+				System.out.printf("Informe um número para segunda matriz, posição M2[%d][%d]: ",linha+1,coluna+1);
 				m2[linha][coluna]=leia.nextFloat();
 			}
 		}
