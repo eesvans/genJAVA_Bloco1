@@ -51,7 +51,7 @@ public class Array_ex2 {
 			}
 			
 		}
-		System.out.println("\nOs númeors ímpares digitados foram: ");
+		System.out.println("\nOs números ímpares digitados foram: ");
 		for(x=0;x<6;x++)
 		{
 			if(a[x]%2!=0)
