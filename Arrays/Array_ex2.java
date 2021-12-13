@@ -17,7 +17,6 @@ public class Array_ex2 {
 		
 		int x,somaP=0,contI=0,num;
 		int[] a = new int [6];
-		int[] p = new int [6];
 				              
 		
 		
