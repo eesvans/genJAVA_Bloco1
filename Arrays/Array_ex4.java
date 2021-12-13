@@ -88,23 +88,26 @@ public class Array_ex4 {
 				}
 				break;
 			case 3:
+				
+				System.out.println("\nInforme uma constante a adicionar na primeira matriz: ");
+				numM1=leia.nextFloat();
+				
 				for(linha=0;linha<2;linha++)
 				{
 					for(coluna=0;coluna<2;coluna++)
 					{
-						System.out.println("\nInforme a constante a adicionar na primeira matriz: ");
-						numM1=leia.nextFloat();
-						
 						m1[linha][coluna]+=numM1;
+												
 					}
 				}
+				
+				System.out.println("\nInforme uma constante a adicionar na segunda matriz: ");
+				numM2=leia.nextFloat();
+				
 				for(linha=0;linha<2;linha++)
 				{
 					for(coluna=0;coluna<2;coluna++)
 					{
-						System.out.println("\nInforme a constante a adicionar na segunda matriz: ");
-						numM2=leia.nextFloat();
-						
 						m2[linha][coluna]+=numM2;
 					}
 				}
