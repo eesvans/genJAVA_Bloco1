@@ -64,8 +64,9 @@ public class Array_ex4 {
 				{
 					for(coluna=0;coluna<2;coluna++)
 					{
-						System.out.println("\n"+m3[linha][coluna]);
+						System.out.printf("\t %.1f \t",m3[linha][coluna]);
 					}
+					System.out.println();
 				}
 				break;
 				
@@ -83,8 +84,9 @@ public class Array_ex4 {
 				{
 					for(coluna=0;coluna<2;coluna++)
 					{
-						System.out.println("\n"+m3[linha][coluna]);
+						System.out.printf("\t %.1f \t",m3[linha][coluna]);
 					}
+					System.out.println();
 				}
 				break;
 			case 3:
@@ -108,16 +110,18 @@ public class Array_ex4 {
 				{
 					for(coluna=0;coluna<2;coluna++)
 					{
-						System.out.println("\n"+m1[linha][coluna]);
+						System.out.printf("\t %.1f \t",m1[linha][coluna]);
 					}
+					System.out.println();
 				}
 				System.out.println("\nNovos valores MATRIZ 2");
 				for(linha=0;linha<2;linha++)
 				{
 					for(coluna=0;coluna<2;coluna++)
 					{
-						System.out.println("\n"+m2[linha][coluna]);
+						System.out.printf("\t %.1f \t",m2[linha][coluna]);
 					}
+					System.out.println();
 				}
 				
 				break;
@@ -128,16 +132,18 @@ public class Array_ex4 {
 				{
 					for(coluna=0;coluna<2;coluna++)
 					{
-						System.out.println("\n"+m1[linha][coluna]);
+						System.out.printf("\t %.1f \t",m1[linha][coluna]);
 					}
+					System.out.println();
 				}
 				System.out.println("\nMATRIZ 2 ");
 				for(linha=0;linha<2;linha++)
 				{
 					for(coluna=0;coluna<2;coluna++)
 					{
-						System.out.println("\n"+m2[linha][coluna]);
+						System.out.printf("\t %.1f \t",m2[linha][coluna]);
 					}
+					System.out.println();
 				}
 				break;
 				
