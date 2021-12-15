@@ -7,25 +7,25 @@ public class ClienteTeste {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner leia = new Scanner(System.in);
-		Cliente cliente1 = new Cliente (null,null,null,null,null,null);
+		Cliente cliente1 = new Cliente ();
 		//cliente1.imprimirInfo();
-		String n,s,e,t,i,d;
-		//int t,i,d;
+		String n,s,e,d;
+		int t,i;
 		
 		System.out.println("\nEntre com o seu nome: ");
-		n=leia.next();
+		n=leia.nextLine();
 		cliente1.setNome(n);
 		System.out.println("\nEntre com seu sexo: ");
-		s=leia.next();
+		s=leia.nextLine();
 		cliente1.setSexo(s);
 		System.out.println("\nEntre com seu endereço: ");
-		e=leia.next();
+		e=leia.nextLine();
 		cliente1.setEndereco(e);
 		System.out.println("\nInforme seu telefone: ");
-		t=leia.next();
+		t=leia.nextInt();
 		cliente1.setTel(t);
 		System.out.println("\nInforme sua idade: ");
-		i=leia.next();
+		i=leia.nextInt();
 		cliente1.setIdade(i);
 		System.out.println("\nInforme o número do seu CPF: ");
 		d=leia.next();

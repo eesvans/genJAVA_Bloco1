@@ -5,18 +5,13 @@ public class Cliente {
 	private String nome;
 	private String sexo;
 	private String endereco;
-	private String tel;
-	private String idade;
+	private int tel;
+	private int idade;
 	private String doc;
 	
-	public Cliente (String nome, String sexo, String endereco, String tel, String idade, String doc)
+	public Cliente ()
 	{
-		this.nome = nome;
-		this.sexo = sexo;
-		this.endereco = endereco;
-		this.tel = tel;
-		this.idade = idade;
-		this.doc = doc;
+		
 	}
 	
 	public void imprimirInfo()
@@ -48,19 +43,19 @@ public class Cliente {
 		this.endereco = endereco;
 	}
 
-	public String getTel() {
+	public int getTel() {
 		return tel;
 	}
 
-	public void setTel(String tel) {
+	public void setTel(int tel) {
 		this.tel = tel;
 	}
 
-	public String getIdade() {
+	public int getIdade() {
 		return idade;
 	}
 
-	public void setIdade(String idade) {
+	public void setIdade(int idade) {
 		this.idade = idade;
 	}
 
